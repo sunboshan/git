@@ -35,9 +35,9 @@ $ gclean        [-] status-view            # 删除未跟踪文件
 # -------
 
 $ gstl          [y]                        # 列出暂存
-$ gsts                                     # 显示暂存
-$ gsta/gstall                              # 保存暂存
-$ gstp                                     # 弹出暂存
+$ gsts          [o]   stash-view           # 显示暂存
+$ gsta/gstall   [A|Z] status-view          # 保存暂存
+$ gstp          [P]   stash-view           # 弹出暂存
 $ gwip                                     # 提交所有修改到wip
 $ gunwip                                   # 撤销wip
 
