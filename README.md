@@ -64,8 +64,8 @@ $ gfa                                      # 同步远程
 # 变基
 # -------
 
-$ ggu                                      # 拉最新代码并且变基
-$ grbi                                     # 手动变基
+$ ggu           [U] main-view              # 拉最新代码并且变基
+$ grbi          [S] main-view              # 手动变基
 $ grbc                                     # 继续变基
 
 # -------
